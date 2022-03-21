@@ -10,6 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ImageLevelSample">
         <activity
+            android:name=".BackgroundActivity"
+            android:exported="false"
+            android:label="@string/title_activity_background"
+            android:theme="@style/Theme.ImageLevelSample.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

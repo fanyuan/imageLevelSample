@@ -1,5 +1,6 @@
 package com.imagelevel.sample
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
@@ -21,4 +22,6 @@ class MainActivity : AppCompatActivity() {
         imageView.setImageLevel(level);
         level++
     }
+
+    fun toBackgroundActivity(view: View) { startActivity(Intent(this,BackgroundActivity::class.java))}
 }

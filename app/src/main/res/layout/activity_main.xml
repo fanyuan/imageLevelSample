@@ -24,6 +24,12 @@
         android:textAllCaps="false"
         android:text="level"
         android:onClick="click"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="BackgroundActivity"
+        android:onClick="toBackgroundActivity"/>
     <ImageView
         android:id="@+id/iv_display"
         android:layout_width="match_parent"
